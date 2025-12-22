@@ -1,6 +1,6 @@
 package Ex_02_Java_Basics;
 
-public class Lab_015_Variable3 {
+public class Lab015_Variable3 {
     static void main() {
         // I want to the age of a person
         // byte, short, int?
