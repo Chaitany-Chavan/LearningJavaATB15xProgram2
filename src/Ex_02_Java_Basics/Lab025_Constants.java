@@ -9,8 +9,8 @@ public class Lab025_Constants
 //         a is constant5 value is changing
         System.out.println(a);
 
-        float PI = 3.14f;
-//        PI = 3.122f;
+        final float PI = 3.14f;
+//       PI = 3.122f;
         System.out.println(PI);
     }
 }
