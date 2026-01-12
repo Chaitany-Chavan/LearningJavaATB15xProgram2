@@ -1,0 +1,9 @@
+package Ex_07_Increment_Decrement_Op;
+
+public class Lab072_ID {
+    static void main() {
+        int a = 10;
+        int result = ++a;
+        System.out.println(result);
+    }
+}
