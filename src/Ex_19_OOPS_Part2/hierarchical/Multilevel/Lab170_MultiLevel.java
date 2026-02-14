@@ -1,0 +1,28 @@
+package Ex_19_OOPS_Part2.hierarchical.Multilevel;
+
+public class Lab170_MultiLevel {
+    public static void main(String[] args) {
+        Son pramod = new Son();
+        pramod.home();
+        pramod.bhk3();
+        pramod.gf();
+        pramod.extraMoney();
+
+        Father f = new Father();
+        f.gf();
+        f.home();
+        // f.extraMoney();
+
+        GrandFather gf =  new GrandFather();
+        gf.gf();
+        gf.home();
+
+        // Dynamic Dispatch
+        GrandFather g1 =  new Son();
+        Father f1  = new Son();
+        System.out.println();
+
+        //Son s1 = new GrandFather();
+        //Son s2 = new Father();
+    }
+}
